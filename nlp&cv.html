@@ -58,7 +58,33 @@
                             </div>
                             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                 <div class="panel-body">
-                                    <p>I participated in the Big Data Center of CUHK as an unpaid volunteer during the summer vacation of 2019. My core tasks include perfecting data visualization and server creation and maintenance.</p>	
+                                    <p>StackGAN</p>
+                                    <ul>
+                                        <li>StackGAN: Text to Photo-realistic Image Synthesis with Stacked Generative Adversarial Networks</li>
+                                        <li><strong> ICCV 2017 </strong></li>
+                                        <li><strong>Paper link</strong>: <a href="https://arxiv.org/abs/1612.03242">StackGAN: text2image</a></li> 
+                                    </ul>
+                                    
+                                    <p>AttnGAN</p>
+                                    <ul>
+                                        <li>AttnGAN: Fine-Grained Text to Image Generation with Attentional Generative Adversarial Networks</li>
+                                        <li><strong> CVPR 2018</strong></li>
+                                        <li><strong>Paper link</strong>: <a href="https://arxiv.org/abs/1711.10485">AttnGAN: text2image</a></li> 
+                                    </ul>
+
+                                    <p>StoryGAN</p>
+                                    <ul>
+                                        <li>StoryGAN: A Sequential Conditional GAN for Story Visualization</li>
+                                        <li><strong>CVPR 2019</strong></li>
+                                        <li><strong>Paper link</strong>: <a href="https://arxiv.org/abs/1812.02784">StoryGAN: text2image</a></li> 
+                                    </ul>
+
+                                    <p>Obj-GAN</p>
+                                    <ul>
+                                        <li>Object-driven Text-to-Image Synthesis via Adversarial Training</li>
+                                        <li><strong>CVPR 2019</strong></li>
+                                        <li><strong>Paper link</strong>: <a href="https://arxiv.org/abs/1902.10740">Obj-GAN: text2image</a></li> 
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -72,10 +98,13 @@
                             </div>
                             <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
                                 <div class="panel-body">
-                                    <p>MIT Sloan School of Management; University of California, Santa Barbara,summer 2016
-                                        <li>Proposed an idea of developing a healthy diet APP for calorie controlling and completed its UI design within the team</li>
-                                        <li>Promoted personal goal setting, time management, project planning, teamwork, and communication skills
-                                        <li>Attended a three-day staff development program.</p>	
+                                    <p>Approach step I. Combination of GANs to generate image from text</p>	
+                                        
+                                        <li>The keywords of the information are captured from the traditional text information, and the corresponding images are generated based on them.</li>
+                                        <li>The generated images are serialized, and a primary key is generated to uniquely identify them, and the stylized images are generated in sequence according to the primary key</li>
+                                    <p>Approach step II. One step to generate image from text</p>
+                                    <li>try to learn the mapping between image and text descriptions through the process of image to text descriptions by mapping the original text information according to the primary key.</li>
+                                        <li>After training, the direct generation of text to abstracted images is learned.</li>
                                 </div>
                             </div>
                         </div>
